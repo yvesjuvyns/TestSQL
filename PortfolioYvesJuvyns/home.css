@@ -1,0 +1,72 @@
+.home{
+    background-color:rgb(75 75 75);
+    background-image: url("images/Sand.jpg");
+    background-size: 1400px; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*height of the view port*/
+    height: 100vh;
+
+    /*manipulating child through the parent*/
+}
+.home img{
+    margin: 20px 0 0 30px;
+    float: left;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+nav{
+    right: 0;
+    position: fixed
+}
+
+nav{
+    margin: 38px 50px 0 0;
+}
+
+.nav-bar > li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+
+    box-shadow: burlywood 0 0 10px;
+    transition: hover;
+}
+
+.nav-bar > li:hover{
+    background-color: peru;
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    border: 1px;
+    box-shadow: burlywood;
+    text-decoration: none;
+    width: 100px;
+    
+}
+
+.main-content{
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 2.5em;
+}
+
+.main-content h1{
+    font-size: 90px;
+    display: inline;
+    justify-content: space-between;
+}
+
+.main-content p{
+    font-weight: bold;
+    padding: 25% 5% 0 5%;   
+}

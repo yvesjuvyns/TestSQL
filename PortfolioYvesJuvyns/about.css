@@ -1,0 +1,40 @@
+.about{
+    /*height: 75vh;padding: 10% 10% 0 10%;*/
+    /*height: 700px;*/
+    padding: 0;
+    
+}
+
+.about img{
+    margin: 30px 0 0 5px;
+    /*margin: 0;*/
+    float: left;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.column{
+    float: left;
+}
+
+.left{
+    margin: 30px 0 0 0;
+    width: 25%;
+    text-align: end;
+    font-size: 25px;
+    height: 500px;
+    float: center;
+}
+
+.right{
+    margin: 30px 0 0 0;
+    width: 75%;
+    background-image: url("images/Contact\ \(6\).jpg");
+    background-size: 1200px;
+    float: right;
+    background-repeat: no-repeat;
+    height: 500px;   
+}
+
+

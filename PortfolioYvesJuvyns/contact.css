@@ -1,0 +1,52 @@
+.main-contact{
+    background-image: url("images/HiSand.jpg");
+    background-color:rgb(75 75 75);
+    background-size: 1500px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-contact img{ 
+    float: inline-start;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin: 30px 0 0 30px;
+
+}
+
+.form-container{
+    position: relative;
+    border-radius: 10px;
+    background-color: none;
+    box-shadow:  gray 0 0 10px;
+    width: auto;
+    /*float: left;
+    width: 300px;
+    height: 100px;*/
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    padding-left: 6%;
+}
+
+.form-container h3{
+    margin: 15% 0 10% 0;
+}
+
+.form-container p{
+    font-weight: bold;
+    padding: 0;
+}
+
+.form-container input{
+    width: 225px;
+}
+
+.btn{
+    background-color:  rgb(55, 55, 55);
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px;
+}
